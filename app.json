@@ -15,12 +15,6 @@
       "value": "8"
     }
   },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "image": "heroku/ruby",
   "buildpacks": [
     {
       "url": "https://github.com/Prajjwal/nginx-buildpack-heroku"
