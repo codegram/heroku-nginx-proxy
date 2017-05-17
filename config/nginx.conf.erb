@@ -30,7 +30,6 @@ server {
 listen <%= ENV["PORT"] %>;
 server_name _;
 keepalive_timeout 5;
-proxy_ssl_verify off;
 proxy_ssl_session_reuse off;
 
 location / {
