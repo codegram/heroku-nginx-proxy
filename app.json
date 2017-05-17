@@ -1,0 +1,29 @@
+{
+  "name": "Heroku Nginx Proxy",
+  "description": "This app proxies requests to a specified location via nginx.",
+  "keywords": [
+    "http",
+    "proxy"
+  ],
+  "repository": "https://github.com/codegram/heroku-nginx-proxy",
+  "env": {
+    "URL": {
+      "description": "Url to proxy to."
+    },
+    "NGINX_WORKERS": {
+      "description": "Nginx workers to run.",
+      "value": "8"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "image": "heroku/ruby",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nginx"
+    }
+  ]
+}
