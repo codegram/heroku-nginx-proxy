@@ -1,1 +1,1 @@
-web: bin/start-nginx ./start-proxy.sh
+web: bin/start_nginx

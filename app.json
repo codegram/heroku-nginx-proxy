@@ -23,7 +23,7 @@
   "image": "heroku/ruby",
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-nginx"
+      "url": "https://github.com/Prajjwal/nginx-buildpack-heroku"
     }
   ]
 }
